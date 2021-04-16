@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<PropertyList>
+<generic>
+
+   <input>
+      <line_separator>newline</line_separator>
+      <var_separator>tab</var_separator>
+ 
+      <chunk>
+         <name>/controls/flight/aileron</name>
+         <node>/controls/flight/aileron</node>
+         <type>float</type>
+         <format>%f</format>
+       </chunk>
+       
+      <chunk>
+         <name>/controls/flight/elevator</name>
+         <node>/controls/flight/elevator</node>
+         <type>float</type>
+         <format>%f</format>
+       </chunk>
+     
+      <chunk>
+         <name>/controls/engines/engine/throttle</name>
+         <node>/controls/engines/engine/throttle</node>
+         <type>float</type>
+         <format>%f</format>
+       </chunk>
+
+      <chunk>
+         <name>/controls/engines/engine[1]/throttle</name>
+         <node>/controls/engines/engine[1]/throttle</node>
+         <type>float</type>
+         <format>%f</format>
+       </chunk>
+      
+
+      <chunk>
+         <name>/controls/flight/rudder</name>
+         <node>/controls/flight/rudder</node>
+         <type>float</type>
+         <format>%f</format>
+       </chunk>
+   
+      <chunk>
+         <name>/controls/gear/brake-parking</name>
+         <node>/controls/gear/brake-parking</node>
+         <type>boolean</type>
+         <format>%d</format>
+       </chunk>
+       
+      <chunk>
+         <name>/controls/fuel/dump-value</name>
+         <node>/controls/fuel/dump-value</node>
+         <type>boolean</type>
+         <format>%d</format>
+       </chunk>
+
+      <chunk>
+         <name>/sim/current-view/view-number</name>
+         <node>/sim/current-view/view-number</node>
+         <type>int</type>
+         <format>%d</format>
+       </chunk>
+       
+
+   </input>   
+   
+</generic>
+</PropertyList>

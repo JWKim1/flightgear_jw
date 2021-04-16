@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<PropertyList>
+<generic>
+   <output>
+      <line_separator>newline</line_separator>
+      <var_separator>tab</var_separator>
+ 
+      <chunk>
+         <name>/consumables/fuel/total-fuel-gal_imp</name>
+         <node>/consumables/fuel/total-fuel-gal_imp</node>
+         <type>float</type>
+         <format>%f</format>
+      </chunk>
+
+      <chunk>
+         <name>/position/latitude-deg</name>
+         <node>/position/latitude-deg</node>
+         <type>float</type>
+         <format>%f</format>
+      </chunk>
+
+      <chunk>
+         <name>/position/longitude-deg</name>
+         <node>/position/longitude-deg</node>
+         <type>float</type>
+         <format>%f</format>
+      </chunk>
+
+      <chunk>
+         <name>/instrumentation/altimeter/indicated-altitude-ft</name>
+         <node>/instrumentation/altimeter/indicated-altitude-ft</node>
+         <type>float</type>
+         <format>%f</format>
+      </chunk>
+
+      <chunk>
+         <name>/velocities/airspeed-kt</name>
+         <node>/velocities/airspeed-kt</node>
+         <type>float</type>
+         <format>%f</format>
+      </chunk>
+      
+   </output>
+      
+</generic>
+</PropertyList>
